@@ -1,0 +1,94 @@
+<html>
+<head>
+  <title>Leonardo Da Vinci - A Brief Overview</title>
+</head>
+<body>
+  <h1>Leonardo Da Vinci - A Brief Overview</h1>
+  <div>
+    <p>Leonardo da Vinci was a prolific artist, scientist, and inventor of the Italian Renaissance. He is best known for his iconic works of art, such as the Mona Lisa and the Last Supper, but he was also a master of engineering and the sciences. He was a master of many disciplines, and his work had a profound impact on the world.</p>
+    <p>Leonardo was born in 1452 in the city of Vinci, Italy. He was the illegitimate son of a Florentine notary and a peasant woman. He received little formal education, but he was a voracious reader and studied mathematics, engineering, anatomy, and other sciences. He was also an apprentice to the renowned artist Verrocchio, where he learned the fundamentals of painting and sculpting.</p>
+    <p>Leonardo is most famous for his artwork. He painted the world-renowned Mona Lisa and The Last Supper, and his sketches and drawings are still studied to this day. He was also a master of engineering, as evidenced by his designs for flying machines, tanks, and other inventions. He was also a pioneer in anatomy, and his studies of the human body helped to revolutionize medicine.</p>
+    <p>Leonardo da Vinci is one of the most celebrated figures in history. His works of art, engineering, and science have inspired countless generations and have had a lasting impact on the world. His legacy is one of creativity, innovation, and genius.</p>
+  </div>
+</body>
+</html><html> 
+<head> 
+    <title>Early Life: A Look into Leonardo's Early Life and How He Developed His Talents</title>
+</head> 
+<body>
+    <h1>Early Life: A Look into Leonardo's Early Life and How He Developed His Talents</h1>
+    <h2>Leonardo da Vinci: A Life of Creativity and Talent</h2>
+    <p>Leonardo da Vinci was a unique figure in history. Born in 1452 in Vinci, Italy, he was a polymath, artist, inventor, and scientist. His works have been inspiring generations of people ever since. Leonardo is best known for his iconic paintings, such as the Mona Lisa and The Last Supper. But Leonardo was much more than just a painter. He was a thinker and a creator, and his talents were developed from an early age.</p>
+    <h2>Developing His Talents</h2>
+    <p>Leonardo was born to a notary, Ser Piero, and a peasant woman, Caterina. His father was soon remarried, but Leonardo was always close to his step-mothers and siblings. He was an inquisitive child, and his interest in art began at a young age. He was apprenticed to the renowned artist Andrea del Verrocchio in Florence. There, he was exposed to a variety of artistic techniques, and he quickly developed his own style.</p>
+    <p>Leonardo also had a keen interest in science and engineering, and was always looking for ways to improve the world around him. He was a master of observation, and he could take a single glance at something and remember it for the rest of his life. He was fascinated by anatomy, and he studied the human body in great detail. He was also an early adopter of the scientific method, and he used his observations to develop theories.</p>
+    <h2>A Lasting Legacy</h2>
+    <p>Leonardo da Vinci was a true genius, and his works continue to inspire people all over the world. His early life was a testament to his creativity and talent, and it is clear that he was a man ahead of his time. His legacy will live on for centuries to come.</p>
+</body> 
+</html>to create them
+
+<html>
+<head>
+<title>A Discussion of Some of Da Vinci's Most Famous Works and the Techniques He Used to Create Them</title>
+</head>
+<body>
+  <h1>A Discussion of Some of Da Vinci's Most Famous Works and the Techniques He Used to Create Them</h1>
+  <h2>Introduction</h2>
+  <p>Leonardo da Vinci is one of the most famous and celebrated artists in history. His works are renowned for their beauty and complexity, and his innovative techniques and materials have influenced generations of artists. In this article, we will explore some of the techniques and materials that Da Vinci used in his most famous works and discuss their impact on the art world.</p>
+  <h2>The Mona Lisa</h2>
+  <p>The Mona Lisa is probably the most famous painting in the world. It is also one of Da Vinci's most innovative works. He used a technique called sfumato to blend colors and create a sense of depth and atmosphere. He also used glazing techniques to create subtle variations of color and texture. The painting is also notable for its use of a single-point perspective, which creates an illusion of depth.</p>
+  <h2>The Last Supper</h2>
+  <p>The Last Supper is another of Da Vinci's most famous works. It is a mural painting that is located in the refectory of the Convent of Santa Maria delle Grazie in Milan. Da Vinci used a technique called chiaroscuro to create a sense of drama and light and shadow. He also used oil paints and tempera paints to create the vivid colors and textures of the painting. Additionally, he used a technique called sfumato to blend the colors and create a sense of depth.</p>
+  <h2>The Vitruvian Man</h2>
+  <p>The Vitruvian Man is an iconic drawing created by Da Vinci in 1490. The drawing is based on the work of the Roman architect Vitruvius, who wrote that a man's proportions should be based on a perfect circle and square. Da Vinci used a technique called linear perspective to create the illusion of depth in the drawing. He also used a technique called foreshortening to create a sense of movement and depth.</p>
+  <h2>Conclusion</h2>
+  <p>Da Vinci was one of the most innovative and influential artists of all time. His works are renowned for their beauty and complexity, and his innovative techniques and materials have influenced generations of artists. In this article, we have explored some of the techniques and materials that Da Vinci used in his most famous works and discussed their impact on the art world.</p>
+</body>
+</html><!DOCTYPE html>
+<html>
+<head>
+	<title>A Look at some of Da Vinci's Inventions and How They Changed the World</title>
+</head>
+<body>
+	<h1>A Look at some of Da Vinci's Inventions and How They Changed the World</h1>
+	<p>Leonardo da Vinci was a true genius of the Renaissance period who left a lasting legacy in the form of his numerous inventions. His work has had a huge impact on our lives today and many of his inventions are still in use. Let’s take a look at some of his most famous inventions and how they changed the world.</p>
+	<h2>The Flying Machine</h2>
+	<p>One of da Vinci’s most famous inventions is the flying machine. He designed a winged apparatus with an ornithopter-style design which was capable of powered flight. Although it was never built and tested, it is considered to be the first of its kind and laid the foundation for the modern-day helicopter. This invention changed the way we think about air travel and opened up the possibility of exploring the skies.</p>
+	<h2>The Tank</h2>
+	<p>The tank was another of da Vinci’s inventions that is still in use today. He designed a large, armored vehicle with caterpillar tracks, which was capable of moving over all types of terrain. This invention revolutionized warfare and changed the face of battle forever. It allowed armies to move quickly and effectively, and it is still used in modern warfare.</p>
+	<h2>The Automaton</h2>
+	<p>Da Vinci was also an innovator in robotics, designing an automaton which was capable of human-like movements. He designed a humanoid figure which could move its arms, legs, and head and was powered by a complex system of gears and levers. This invention changed the way we think about robotics and paved the way for modern-day robots.</p>
+	<h2>The Parachute</h2>
+	<p>Da Vinci also designed a parachute which was capable of slowing a person’s descent from a great height. This invention changed the way we think about air travel and opened up the possibility of exploring the skies. It has been used in a variety of applications, from military operations to extreme sports.</p>
+	<h2>Conclusion</h2>
+	<p>Leonardo da Vinci’s inventions have had a huge impact on our lives today and many of them are still in use. From the flying machine to the tank and the automaton, his work has changed the way we think about technology and opened up new possibilities. His inventions are a testament to his genius and will continue to shape our lives for years to come.</p>
+</body>
+</html><!DOCTYPE html>
+<html>
+<head>
+<title>Legacy: A Look at Da Vinci's Lasting Impact on the World and Why He Is Still Celebrated Today</title>
+</head>
+<body>
+
+<h1>Legacy: A Look at Da Vinci's Lasting Impact on the World and Why He Is Still Celebrated Today</h1>
+
+<p>Leonardo da Vinci is one of the most celebrated figures in history. He was a master scientist, painter, sculptor, inventor, and architect. He is remembered for his innovative ideas and for his extraordinary talent for combining art and science. Da Vinci's lasting impact on the world is still seen today in his artwork, inventions, and ideas.</p>
+
+<h2>Da Vinci's Artwork</h2>
+
+<p>Da Vinci's artwork has been admired for centuries. His most famous painting, the Mona Lisa, is one of the most recognizable works of art in the world. He was a master of the High Renaissance style of painting and is known for his realistic and detailed depictions of people and landscapes. His drawings and paintings have been reproduced and studied by artists and art historians alike.</p>
+
+<h2>Da Vinci's Inventions</h2>
+
+<p>Da Vinci was an accomplished inventor and engineer who created many innovative designs. He is credited with inventing the parachute, the helicopter, the tank, and the model for the modern bicycle. He also designed war machines, including a giant crossbow and a giant catapult. His inventions were far ahead of their time and many of them are still used today. </p>
+
+<h2>Da Vinci's Ideas</h2>
+
+<p>Da Vinci was a great thinker who wrote extensively on a variety of topics. He wrote about anatomy, engineering, mathematics, botany, and optics. He was a great proponent of the scientific method and believed in experimenting and observing the world around him. His ideas and theories have influenced many scientists and thinkers throughout the centuries.</p>
+
+<h2>Why Da Vinci is Still Celebrated Today</h2>
+
+<p>Da Vinci's impact on the world is still seen today. His artwork is still admired and studied, his inventions are still used, and his ideas and theories are still relevant. He is celebrated as one of the greatest minds of all time and his legacy will continue to inspire generations to come.</p>
+
+</body>
+</html>
