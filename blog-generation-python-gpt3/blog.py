@@ -14,7 +14,7 @@ ENGINE = "text-davinci-003"
 
 def saveAnswer(text, title=""):
     timestamp = datetime.timestamp(datetime.now())
-    with open(title+"_"+str(timestamp) + ".txt", 'w', encoding="utf-8") as file:
+    with open("data/"+title+"_"+str(timestamp) + ".txt", 'w', encoding="utf-8") as file:
         file.write(text)
 
 def approve(text):
@@ -46,7 +46,7 @@ def generate_blog_from_chapters(chapters):
         engine=ENGINE,
         prompt = prompts,
         temperature = 0.65,
-        max_tokens = 2000,
+        max_tokens = 1500,
         frequency_penalty = 0,
         presence_penalty = 0
     )
@@ -54,7 +54,7 @@ def generate_blog_from_chapters(chapters):
     html_string = html_string.replace("h2>", "h3>")
     html_string = html_string.replace("h1>", "h2>")
     body_pattern = re.compile(r'<body>(.*?)</body>', re.DOTALL)
-    return "".join(re.findall(body_pattern, html_string))
+    return ("".join(re.findall(body_pattern, html_string))).strip()
 def generate_blog_lead(title):
     prompt = f"Rövid leírás \"{title}\" című bloghoz"
     response = openai.Completion.create(
@@ -65,7 +65,7 @@ def generate_blog_lead(title):
         frequency_penalty = 0,
         presence_penalty = 0
     )
-    return response.choices[0].text
+    return response.choices[0].text.strip().replace('"', "'")
 
 def getBlogData(file):
     with open(file) as f:
@@ -120,24 +120,38 @@ def saveBlogData(title, keywords, content, lead, imageUrl):
     makeDirectory(imagesPath)
 
     imageFilePath = download_crop_convert_webp_image(imageUrl, imagesPath, slug)
+    blogSummary = {
+        "title": title,
+        "lead": lead,
+        "slug": slug,
+        "image": imageFilePath
+    }
+    pageContent = f'''
+<?php
+    $articleTitle = "{title}";
+    $articleLead = "{lead}";
+    $articleImage = "{imageFilePath}";
+    $articleImageAlt = "{title}";
+    $articleKeywords = "{keywords}";
+    $slug = "{slug}";
+    $articleImageType = "image/webp";
+    $articleContent = '<img src="images/webp/{imageFilePath}" alt="{title}">\n{content}';
 
+include 'blog-template.php';
+?>
+    '''
 
     with open(os.path.join(blogPath, slug+".php"), "w", encoding="utf-8") as f:
-        f.write(title + "\n")
-        f.write(keywords + "\n")
-        f.write(lead + "\n")
-        f.write("-----------------------------------\n")
-
-        f.write(f"<h1>{title}</h1>\n")
-        f.write(f"<img src=\"images/{imageFilePath}\" alt=\"{title}\" title=\"{title}\">")
-        f.write(content)
+        f.write(pageContent)
+    with open(os.path.join(blogPath, slug+".json"), "w", encoding="utf-8") as f:
+        f.write(json.dumps(blogSummary, ensure_ascii=False).encode('utf8').decode())
 
 if __name__ == "__main__":
     openai.api_key = os.environ["OPENAI_API_KEY"]
     print("Adatok beolvasása...")
     blogData = getBlogData("blog-data.json")
     for data in blogData:
-        title, keywords, imageUrl = data['title'], data['keywords'], data['image']    
+        title, keywords, imageUrl = data['title'], data['keywords'], data['image']
         titles = generate_chapters(title)
         print("Blog tartalmának generálása...")
         blog = generate_blog_from_chapters(titles)
@@ -147,5 +161,5 @@ if __name__ == "__main__":
 
         saveBlogData(title, keywords, blog, lead, imageUrl)
 
-        saveAnswer(blog + "\n" + lead)
+        saveAnswer(blog + "\n" + lead, slugify(title))
         print(f"\n{title} blog generálás sikeresen befejeződött!\n\n")
